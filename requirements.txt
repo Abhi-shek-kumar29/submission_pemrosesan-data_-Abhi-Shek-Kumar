@@ -1,0 +1,7 @@
+python-crontab ~= 3.2
+sqlalchemy~=2.0
+pandas~=2.2
+requests~=2.32
+beautifulsoup4~=4.12
+pytest-cov ~=6.0
+pytest~=8.0

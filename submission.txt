@@ -1,0 +1,22 @@
+# Install Library yang mau digunakan
+pip install -r requirements.txt
+
+# Menjalankan skrip ETL pipeline
+python main.py
+
+# Menjalankan unit test pada folder tests
+python -m pytest tests
+
+# Menjalankan test coverage pada folder tests
+python -m pytest --cov=utils tests
+
+# Repository data
+Data disimpan ke:
+1. CSV: products.csv
+2. PostgreSQL 
+
+# PostgreSQL
+Database: products
+Table: products
+Host: localhost
+Port: 5432
